@@ -17,10 +17,9 @@ class AbstractRepository(abc.ABC):
         raise NotImplementedError
 
 
-
 class SqlAlchemyRepository(AbstractRepository):
     """
-    A concrete SqlAlchemy implementation of the AbstractRepository 
+    A concrete SqlAlchemy implementation of the AbstractRepository
     """
 
     def __init__(self, session):

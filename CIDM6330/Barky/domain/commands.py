@@ -5,10 +5,8 @@ specify and implement the business logic layer
 import sys
 from abc import ABC, abstractmethod
 from datetime import datetime
-
 import requests
-
-from database import DatabaseManager
+from ..repository.database import DatabaseManager
 
 # module scope
 db = DatabaseManager("bookmarks.db")

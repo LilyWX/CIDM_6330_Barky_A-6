@@ -16,6 +16,7 @@ CREATE TABLE IF NOT EXISTS bookmarks
     url TEXT NOT NULL,
     notes TEXT,
     date_added TEXT NOT NULL
+    
 );
 
 """
